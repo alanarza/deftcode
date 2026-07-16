@@ -1,0 +1,40 @@
+hero:
+  eyebrow: Software development studio
+  title: Digital products that solve, scale, and endure.
+  description: We design and build custom software, web platforms, ecommerce, SaaS, and mobile applications for organizations that need to move forward with clarity.
+services:
+  - title: Digital products
+    description: We turn a business need into a clear, usable product ready to grow.
+    items: [Custom software, Web platforms, SaaS]
+  - title: Digital commerce
+    description: We create buying experiences connected to the real operation of the business.
+    items: [Ecommerce, Commerce integrations, Optimization]
+  - title: Mobile experiences
+    description: Flutter applications integrated with existing platforms, APIs, and processes.
+    items: [iOS and Android, Flutter, Integrations]
+  - title: Connected systems
+    description: We unify tools and automate workflows to reduce manual work and errors.
+    items: [APIs, Integrations, Automation]
+  - title: Technology evolution
+    description: We modernize existing products without losing knowledge or disrupting operations.
+    items: [Modernization, Continuous maintenance, Performance]
+capabilities:
+  - title: Software architecture
+    description: Technical decisions aligned with context, risk, and expected evolution.
+  - title: Backend and APIs
+    description: Reliable business logic, data, and integrations with Laravel and related ecosystems.
+  - title: Frontend
+    description: Fast, accessible, maintainable interfaces built around the user.
+  - title: Mobile
+    description: Cross-platform products with Flutter and a carefully crafted native experience.
+  - title: Deployment and infrastructure
+    description: Repeatable environments, observability, and safe delivery.
+  - title: UX and optimization
+    description: Clear flows, measurement, and continuous experience and performance improvements.
+principles:
+  - title: Understand before building
+    description: The solution starts by understanding the problem, the people, and the constraints.
+  - title: Design for evolution
+    description: We prioritize simple, solid foundations that support learning and growth.
+  - title: Communicate clearly
+    description: Decisions, progress, and risks should remain visible throughout the process.

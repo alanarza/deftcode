@@ -1,0 +1,40 @@
+hero:
+  eyebrow: Estudio de desarrollo de software
+  title: Productos digitales que resuelven, escalan y perduran.
+  description: Diseñamos y desarrollamos software a medida, plataformas web, ecommerce, SaaS y aplicaciones móviles para organizaciones que necesitan avanzar con claridad.
+services:
+  - title: Productos digitales
+    description: Convertimos una necesidad de negocio en un producto claro, usable y preparado para crecer.
+    items: [Software a medida, Plataformas web, SaaS]
+  - title: Comercio digital
+    description: Creamos experiencias de compra conectadas con la operación real del negocio.
+    items: [Ecommerce, Integraciones comerciales, Optimización]
+  - title: Experiencias móviles
+    description: Aplicaciones Flutter integradas con plataformas, APIs y procesos existentes.
+    items: [iOS y Android, Flutter, Integraciones]
+  - title: Sistemas conectados
+    description: Unificamos herramientas y automatizamos flujos para reducir tareas manuales y errores.
+    items: [APIs, Integraciones, Automatización]
+  - title: Evolución tecnológica
+    description: Modernizamos productos existentes sin perder el conocimiento ni detener la operación.
+    items: [Modernización, Mantenimiento evolutivo, Rendimiento]
+capabilities:
+  - title: Arquitectura de software
+    description: Decisiones técnicas alineadas con el contexto, el riesgo y la evolución esperada.
+  - title: Backend y APIs
+    description: Lógica de negocio, datos e integraciones confiables con Laravel y ecosistemas afines.
+  - title: Frontend
+    description: Interfaces rápidas, accesibles y mantenibles, construidas alrededor del usuario.
+  - title: Mobile
+    description: Productos multiplataforma con Flutter y una experiencia nativa cuidada.
+  - title: Deploy e infraestructura
+    description: Entornos repetibles, observabilidad y despliegues seguros.
+  - title: UX y optimización
+    description: Flujos claros, medición y mejora continua de la experiencia y el rendimiento.
+principles:
+  - title: Entender antes de construir
+    description: La solución empieza por comprender el problema, las personas y las restricciones.
+  - title: Diseñar para evolucionar
+    description: Priorizamos bases simples y sólidas que permitan aprender y crecer.
+  - title: Comunicar con claridad
+    description: Decisiones, avances y riesgos deben ser visibles durante todo el proceso.

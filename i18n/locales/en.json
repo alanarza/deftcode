@@ -1,0 +1,18 @@
+{
+  "nav": { "home": "Home", "services": "Services", "projects": "Projects", "about": "About", "contact": "Contact", "menu": "Open menu" },
+  "actions": { "viewProjects": "View projects", "startConversation": "Tell us about your project", "viewProject": "View case study", "allProjects": "All projects", "learnMore": "Learn more", "visitWebsite": "Visit website" },
+  "home": { "servicesEyebrow": "What we solve", "servicesTitle": "We build products that move businesses forward.", "projectsEyebrow": "Selected work", "projectsTitle": "Real problems, solutions designed to last.", "capabilitiesEyebrow": "Capabilities", "capabilitiesTitle": "From concept to production, with an integrated perspective.", "ctaTitle": "Does your product need to move forward?", "ctaDescription": "Let’s discuss the problem, its context, and the best way to solve it." },
+  "heroVisual": { "product": "Product", "platform": "Platform", "integration": "Integration", "status": "Connected system" },
+  "aboutVisual": { "core": "Studio", "context": "Context", "product": "Product", "evolution": "Evolution", "status": "Continuous collaboration" },
+  "servicesVisual": { "signal": "Delivery system", "discover": "Understand", "build": "Build", "evolve": "Evolve", "status": "Active flow" },
+  "technology": { "eyebrow": "Applied technology", "title": "Recognized tools, selected for their role.", "description": "We combine mature ecosystems to build interfaces, business logic, mobile applications, and reliable delivery workflows.", "items": { "nuxt": "Web products", "vue": "Interfaces", "typescript": "Reliable code", "tailwind": "Visual systems", "laravel": "Backend and APIs", "flutter": "Mobile applications", "node": "Services and runtime", "vercel": "Delivery and deployment" } },
+  "services": { "eyebrow": "Services", "title": "Technology focused on concrete outcomes.", "description": "We design, build, and evolve digital products, prioritizing the decisions that create value and reduce complexity." },
+  "projects": { "eyebrow": "Projects", "title": "Case studies", "description": "A selection of products combining business judgment, user experience, and engineering.", "challenge": "Challenge", "solution": "Solution", "architecture": "Architecture", "results": "Results", "stack": "Tools and role", "capabilities": "Applied capabilities" },
+  "about": { "eyebrow": "The studio", "title": "We think like product partners.", "description": "We are a software development studio focused on creating clear, reliable digital solutions ready to evolve.", "body": "We work closely with each organization to understand its operation, turn complex needs into concrete decisions, and build sustainable products. Our structure is agile and ready to bring in the capabilities each challenge requires." },
+  "contact": { "eyebrow": "Contact", "title": "Let’s start with your idea.", "description": "Tell us briefly what you want to build, improve, or connect.", "name": "Name", "email": "Email", "company": "Company", "message": "Project or need", "send": "Send inquiry", "sending": "Sending…", "success": "Thank you. We received your inquiry.", "error": "We could not send your inquiry. You can reach us by email.", "channels": "You can also find us on" },
+  "footer": { "tagline": "Digital products built with sound judgment.", "rights": "All rights reserved." },
+  "theme": { "toggle": "Change theme" },
+  "locale": { "change": "Change language" },
+  "error": { "title": "This page is not available", "description": "It may have moved or may not exist yet.", "action": "Back to home" },
+  "a11y": { "skip": "Skip to content" }
+}
