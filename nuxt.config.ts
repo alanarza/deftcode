@@ -6,6 +6,9 @@ const siteUrl = process.env.NUXT_PUBLIC_SITE_URL || 'https://example.com'
 export default defineNuxtConfig({
   compatibilityDate: '2026-07-14',
   devtools: { enabled: true },
+  experimental: {
+    payloadExtraction: 'client',
+  },
   css: ['~/assets/css/main.css'],
   components: [{ path: '~/components', pathPrefix: false }],
   modules: [
