@@ -18,6 +18,6 @@ const config = useRuntimeConfig()
         </a>
       </div>
     </div>
-    <div class="site-container mt-10 text-xs text-muted">© {{ new Date().getFullYear() }} {{ config.public.siteName }}. {{ t('footer.rights') }}</div>
+    <div class="site-container mt-10 text-xs text-muted">© {{ new Date().getFullYear() }} {{ config.public.brandName }}. {{ t('footer.rights') }}</div>
   </footer>
 </template>

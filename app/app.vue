@@ -9,9 +9,9 @@ onNuxtReady(() => {
 
 useSchemaOrg([
   defineOrganization({
-    name: config.public.siteName,
-    url: config.public.siteUrl,
-    logo: `${config.public.siteUrl}/images/brand/deftcode-logo-transparent.png`,
+    name: config.public.brandName,
+    url: config.public.canonicalUrl,
+    logo: `${config.public.canonicalUrl}/images/brand/deftcode-logo-transparent.png`,
     email: appConfig.brand.email,
     sameAs: appConfig.contactChannels.filter(channel => channel.type !== 'email').map(channel => channel.href),
   }),
@@ -26,7 +26,7 @@ useHead(() => ({
   htmlAttrs: localeHead.value.htmlAttrs,
   link: localeHead.value.link,
   meta: localeHead.value.meta,
-  titleTemplate: title => title ? `${title} · ${config.public.siteName}` : config.public.siteName,
+  titleTemplate: title => title ? `${title} · ${config.public.brandName}` : config.public.brandName,
 }))
 </script>
 

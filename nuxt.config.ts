@@ -1,7 +1,25 @@
 import tailwindcss from '@tailwindcss/vite'
 
-const siteName = process.env.NUXT_PUBLIC_SITE_NAME || 'deftcode'
-const siteUrl = process.env.NUXT_PUBLIC_SITE_URL || 'https://example.com'
+const siteName = 'deftcode'
+const defaultSiteUrl = 'https://deftcodeteam.vercel.app'
+
+function resolveSiteUrl(value: string | undefined) {
+  if (!value) return defaultSiteUrl
+
+  try {
+    const url = new URL(value)
+    const isValidHost = url.hostname === 'localhost' || url.hostname.includes('.')
+
+    return ['http:', 'https:'].includes(url.protocol) && isValidHost
+      ? url.origin
+      : defaultSiteUrl
+  }
+  catch {
+    return defaultSiteUrl
+  }
+}
+
+const siteUrl = resolveSiteUrl(process.env.NUXT_PUBLIC_SITE_URL)
 
 export default defineNuxtConfig({
   compatibilityDate: '2026-07-14',
@@ -25,8 +43,8 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      siteName,
-      siteUrl,
+      brandName: siteName,
+      canonicalUrl: siteUrl,
       contactEndpoint: process.env.NUXT_PUBLIC_CONTACT_ENDPOINT || '',
     },
   },
